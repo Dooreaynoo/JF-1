@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  background-color: hsl(244, 64%, 22%,0.7);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    text-indent: -100px;
+    font-style: 'Dancing Script', cursive;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+/* 花体 Dancing Script */
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('网页设计/fonts/dancing-script-v29-latin-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* 使用 */
+ /* h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+} */
+ .news{
+    background-color: hsl(228, 31%, 85%);
+    color:white;
+    height: 95vh;
+    background-image: url('E:/masterpiece/网页设计/images/pexels-reza-jackson-1546225-2976373.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.news h2{
+    font-size: 60px;
+    margin-top: 60px;
+}
+.news p{
+    color: antiquewhite;
+    font-size: 18px;
+    margin: 25px 0;
+}
+.news a{
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid antiquewhite;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.news2{
+    background-color: hsl(228, 97%, 15%);
+    color:white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 2.2;
+}
+footer{
+    background-color: hsl(0, 0%, 0%);
+    color:rgb(110, 110, 110);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    /* line-height: 2.2; */
+}
+.shop{
+    display: flex;
+}
+.shop img{
+    width: 50%;
+}
+.info{
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.info p{
+    line-height: 2em;
+    text-align: center;
+    font-size: 28px;
+}
+.goods{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 180px 80px;
+}
+.goods div{
+    width: 300px;
+    text-align: center;
+}
+.goods img{
+    width: 93%;
+    border-radius: 10px;
+}
+.goods h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.goods p{
+    font-size: 14px;
+    color: gray;
+    line-height: 1.8em;
+}
+.contact{
+    background-color: hsl(228, 87%, 18%);
+    color:white;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact p{
+    margin-bottom: 20px;
+}
+.contact input,.contact button{
+   background-color: transparent;
+   color: white;
+   border: 1px solid white;
+   padding: 10px;
+   border-radius: 5px;
+}
+.contact input{
+    width: 200px;
+    margin-right: 15px;
+}
+.contact button{
+   width: 80px;
+   cursor: pointer;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+    border-color: rgb(169, 166, 173);
+}
