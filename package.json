@@ -1,0 +1,12 @@
+{
+  "name": "masterpiece",
+  "version": "1.0.0",
+  "description": "Express static site for masterpiece",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
