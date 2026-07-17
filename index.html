@@ -4,74 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>衣绘</title>
-<link rel="stylesheet" href="style.css">
+    <meta name="description" content="衣绘是一家以个性化服饰与限量设计为核心的品牌，帮助你把故事和态度穿在衣服里。">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    <h1><em>Yivey</em></h1>
-    <nav>
-    <ul>
-        <li><a href="#">最新消息</a></li>
-        <li><a href="#">关于我们</a></li>
-        <li><a href="#">会员专区</a></li>
-        <li><a href="#">衣帽间</a></li>
-    </ul>
-    </nav>
+    <header class="site-header">
+        <a class="brand" href="#top">Yivey</a>
+        <nav class="site-nav">
+            <a href="#news">最新消息</a>
+            <a href="#about">关于我们</a>
+            <a href="#goods">会员专区</a>
+            <a href="#contact">衣帽间</a>
+        </nav>
     </header>
-    <main>
-    <section class="news">
-    <h2>绘制你的个性</h2>
-    <p>独一无二，把思考投射到你最棒的衬衫上</p>
-    <p><a href="#">了解更多</a></p>
-    </section>
 
-    <section class="news2">
-    <blockquote>
-        <p>在“衣绘”，表达自我。<br>独特设计，时尚图案，我们都能帮你实现。</p>
-    </blockquote>
-    </section>
-    
-    <section class="shop">
-    <img src="网页设计\images\pexels-cottonbro-9155633.jpg" alt="衣绘" >
-    <div class="info">
-    <h2>8月1日第一家线下预约店于台北101隆重揭牌！</h2>
-    <p>8月1日，来到我们的线下预约店，体验独一无二的定制服务！</p>
-    </div>
-    </section>
+    <main id="top">
+        <section class="hero" id="news">
+            <div class="hero-content">
+                <h1>把你最想表达的，穿在每一件衣裳上。</h1>
+                <p>从基础款到限定联名，我们用设计、细节和态度，打造一件真正属于你的作品。</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#goods">探索新品</a>
+                    <a class="btn btn-secondary" href="#contact">预约体验</a>
+                </div>
+            </div>
+        </section>
 
-    <section class="goods">
-        <div>  
-            <img src="网页设计\images\pexels-mohamed-72152375-8531904.jpg" alt="衬衫" >
-        <h3>
-            基础衬衫
-        </h3>
-        <p>基础款衬衫，舒适百搭<br>入门穿搭不二选择</p>
-        </div>
-        <div>  
-            <img src="网页设计\images\pexels-dxaxoxfz-20605509.jpg" alt="卫衣" >
-        <h3>
-            基础卫衣
-        </h3>
-        <p>黑色卫衣，一件足矣<br>经久不衰的时尚单品<br></p>
-        </div>
-        <div>  
-            <img src="网页设计\images\pexels-jibarofoto-13536939.jpg" alt="鞋子" >
-        <h3>
-            运动鞋
-        </h3>
-        <p>舒适时尚的运动鞋<br>去绘制图腾，并穿着它烙下足迹</p>
-        </div>
-    </section>
-    <section class="contact">
-        <p>欢迎订阅我们的新闻简报，可不定期收到限时优惠哦！</p>
-        <form action="#">
-            <input type="email" placeholder="请输入邮箱"required>
-            <button type="submit">订阅</button>
-        </form>
-    </section>
+        <section class="story" id="about">
+            <div class="story-card">
+                <p class="eyebrow">品牌理念</p>
+                <h2>在“衣绘”，表达自我。</h2>
+                <p>独特设计、时尚图案与深度定制，让每一次穿搭都像一段有温度的叙述。</p>
+            </div>
+            <div class="story-card highlight">
+                <p class="eyebrow">本季推荐</p>
+                <h3>未来感街头风，融合细腻质感与自由色彩。</h3>
+            </div>
+        </section>
+
+        <section class="shop">
+            <img src="网页设计/images/pexels-cottonbro-9155633.jpg" alt="衣绘线下体验店">
+            <div class="info">
+                <p class="eyebrow">线下预约店</p>
+                <h2>8 月 1 日第一家线下预约店于台北 101 隆重揭牌</h2>
+                <p>来到我们的线下预约店，亲自体验独一无二的定制服务与限量款展示。</p>
+                <a class="btn btn-dark" href="#contact">立即预约</a>
+            </div>
+        </section>
+
+        <section class="goods" id="goods">
+            <article class="product-card">
+                <img src="网页设计/images/pexels-mohamed-72152375-8531904.jpg" alt="基础衬衫">
+                <h3>基础衬衫</h3>
+                <p>舒适百搭，轻松搭配，适合日常与出行。</p>
+            </article>
+            <article class="product-card">
+                <img src="网页设计/images/pexels-dxaxoxfz-20605509.jpg" alt="基础卫衣">
+                <h3>基础卫衣</h3>
+                <p>极简质感，温柔克制，让黑色也拥有辨识度。</p>
+            </article>
+            <article class="product-card">
+                <img src="网页设计/images/pexels-jibarofoto-13536939.jpg" alt="运动鞋">
+                <h3>运动鞋</h3>
+                <p>舒适时尚，一双既能出街也能出发的穿搭底盘。</p>
+            </article>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>自由定制</h3>
+                <p>根据你的喜好选择图案、色彩和版型。</p>
+            </div>
+            <div class="feature-card">
+                <h3>会员优先</h3>
+                <p>首发预售、限定优惠和专属试穿邀请。</p>
+            </div>
+            <div class="feature-card">
+                <h3>线下体验</h3>
+                <p>在预约店亲自感受设计和细节的魅力。</p>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <p>欢迎订阅我们的新闻简报，第一时间收到新品和限时优惠。</p>
+            <form id="subscribeForm">
+                <input type="email" id="emailInput" placeholder="请输入邮箱" required>
+                <button type="submit">订阅</button>
+            </form>
+            <p class="form-message" id="formMessage"></p>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2026 1衣绘. 保留所有权利.</p>
+        <p>© <span id="year"></span> Yivey. 保留所有权利.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
